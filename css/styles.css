@@ -1,0 +1,135 @@
+
+main{
+  display: grid;
+  grid-template-columns:  repeat(auto-fit, minmax(100px, 250px)); 
+  justify-content: center;
+  grid-gap: 10px;
+  background-color: #F6E9DC;
+  padding: 10px;
+}
+body {
+
+  background-image: url("../img/winter_bg3.jpg");
+  background-size: cover;
+  font-family:Montserrat;
+
+}
+
+.santa{
+  height:90%;
+}
+.sida{
+  display: grid;
+grid-template-columns: 1fr 6fr 1fr;  
+grid-template-rows: 90px 2fr 6fr 1fr;
+}
+
+.rubrik{ 
+  text-align: center;
+  color: #F6E9DC;
+  background-color: #4E4F4A;
+  height: 90%;
+  font-size: 3em;
+
+}
+
+ul{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  justify-self: center;  
+    width:50%;
+  color: white;
+  background-color: #4E4F4A;
+
+  height: auto;
+  border: 1px ridge yellow;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 80%;  
+  margin-top:20px;
+  margin-bottom: 20px;
+
+}
+
+li{
+    list-style-type:square;
+    width:80%;
+    max-width: 200px;
+
+
+  }
+
+.kalender  {
+  background-color: #F6E9DC;
+  grid-row: 3/4;
+  grid-column: 2/3;
+display: grid;
+grid-template-columns: repeat(7, 1fr);
+  border: 2px solid grey;
+  
+  padding:20px;
+  height:100%
+  
+ 
+}
+
+.kalender > h1{
+  text-align: center;
+  padding-top:10%;
+}
+h2 {
+  background-color: silver;
+/*
+  width:10%;
+  height:40px;
+  */
+  border: 3px solid #e66053;;
+  font-size: 20px;
+}
+h1 {
+  /*
+  width:10%;
+  height:30px;
+  */
+  border: 3px solid #e66053;;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+
+.red {
+  color: TOMATO;
+}
+
+.green{
+background-color: #F6E9DC;
+}
+
+.fireworks{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+#julafton {
+background-color: white /*#D46A6A*/;
+color: #D46A6A
+}
+
+#nyår {
+background-color: #d4af37;
+}
+
+footer{
+grid-column: 2/3;
+grid-row: 4/5;
+justify-self: center;
+align-self: flex-end;
+}
+footer > h3{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
